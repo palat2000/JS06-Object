@@ -7,8 +7,8 @@ const user = {
 };
 
 user.isActive = false;
-console.log(user); // *
+console.log(user); // * log object user
 user = {};
-console.log(user); // **
+console.log(user); // ** error ตั้งแต่บรรทัด 11 เพราะ const reassign ไม่ได้
 
 ```
